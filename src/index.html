@@ -1,0 +1,18 @@
+---
+layout: page_template.njk
+title: Rolczynski Group
+---
+
+<img id="home-splash" src="/assets/images/home_page_splash.png" alt="Splash page image">
+<p class="page-text">In the next phase of optoelectronics, scientists and engineers will actively control processes like
+quantum-mechanical phase evolution, stepwise electronic processes, system-environment interactions, and
+photoprotective mechanisms, to bolster existing material capabilities and enable entirely new ones.
+Our vision is to adopt strategies that have succeeded in biology, such as the precise structural control
+of modular chromophore networks and the feedback-based optimization of systems, to produce materials for
+applications like photovoltaics, transistors, sensors, communications, and quantum-information technologies.</p>
+<div class="button-container"><button type = "button" class="button more-info" onclick="alert('More info!')">More information</button></div>
+<hr>
+<div id="news-feed-container">
+  {% renderFile "./src/_includes/newsfeed.md" %}
+</div>
+<div class="button-container"><button type = "button" class="button more-news" onclick="alert('More news!')">More news</button></div>

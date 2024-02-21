@@ -1,0 +1,239 @@
+* {
+  color: #051f41;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header {
+  background-color: #051f41;
+  display: flex;
+  height: 115px;
+  justify-content: center;
+}
+
+.group-logo {
+  margin: auto;
+  width: 250px;
+}
+
+/* NAVIGATION */
+
+#navigation {
+  margin: 1em auto 2em auto;
+  overflow: hidden;
+  position: relative;
+  width: 47%;
+}
+
+#navigation ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -1px;
+}
+
+#navigation li {
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  flex-grow: 1;
+  flex-basis: auto;
+  list-style-type: none;
+  margin: .15em 0;
+  padding: 0 1em;
+  text-align: center;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s;
+}
+
+#navigation a:hover {
+  color: #A9A9A9;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #8A8D8F;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-image {
+  padding: 0 40px;
+  margin:  1.75em 0;
+}
+
+#footer-unr-logo {
+  display: block;
+  max-width:219px;
+  max-height:71px;
+  width: auto;
+  height: auto;
+  border-right: 1px solid #051f41;
+}
+
+#footer-group-logo {
+  display: block;
+  max-width: 250px;
+  max-height:71px;
+  width: auto;
+  height: auto;
+}
+
+#footer-text {
+  flex: 0 0 100%;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* PAGE CONTENT */
+
+#home-splash {
+  display: block;
+  margin: auto;
+  padding-bottom: 1em;
+  width: 100%;
+}
+
+#page-content {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.page-text {
+  display: table-cell;
+}
+
+.button-container {
+  padding: 1em;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 4px 2px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+  width: 250px;
+}
+
+.more-info {
+  background-color: #051f41;
+  color: #ececec;
+}
+
+.more-info:hover {
+  background-color: #364b66;
+}
+
+.more-news {
+  border: 1px #051f41 solid;
+  background-color: #fff;
+}
+
+.more-news:hover {
+  background-color: #eee;
+}
+
+#news-feed-container {
+  --mask: linear-gradient(to bottom, 
+    rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 40%, 
+    rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
+  ) 100% 50% / 100% 100% repeat-x;
+  
+  -webkit-mask: var(--mask); 
+  mask: var(--mask);
+}
+
+/* FONTS */
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
