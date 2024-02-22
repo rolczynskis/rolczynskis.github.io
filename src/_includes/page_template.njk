@@ -15,7 +15,7 @@ title: Brian's lab
   </head>
   <body>
     <header>
-      <img class="group-logo" src="/assets/images/group_logo.png" alt="Rolczynski Group logo">
+      <a id="header-image-link" href="/"><img class="group-logo" src="/assets/images/common/group_logo.png" alt="Rolczynski Group logo"></a>
     </header>
     <div id="navigation">
       <ul>
@@ -25,15 +25,15 @@ title: Brian's lab
         <li><a href="/publications">PUBLICATIONS</a></li>
         <li><a href="/news">NEWS</a></li>
         <li><a href="/contact">CONTACT</a></li>
-        <li><a href="/join">JOIN US</a></li>
+        <li><a href="/join_us">JOIN US</a></li>
       </ul>
     </div>
     <div id="page-content">
       {{ content | safe }}
     </div>
     <footer>
-      <img class="footer-image" id="footer-unr-logo" src="/assets/images/UNR_logo.png" alt="University of Nevada, Reno logo">
-      <img class="footer-image" id="footer-group-logo" src="/assets/images/group_logo.png" alt="Rolczynski Group logo">
+      <img class="footer-image" id="footer-unr-logo" src="/assets/images/common/UNR_logo.png" alt="University of Nevada, Reno logo">
+      <img class="footer-image" id="footer-group-logo" src="/assets/images/common/group_logo.png" alt="Rolczynski Group logo">
       <p id="footer-text">&copy; {{ page.date.getFullYear() }} The Rolczynski Group at UNR. All rights reserved.</p>
     </footer>
   </body>

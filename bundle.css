@@ -16,6 +16,10 @@ header {
   justify-content: center;
 }
 
+#header-image-link {
+  padding: 1em;
+}
+
 .group-logo {
   margin: auto;
   width: 250px;
@@ -65,14 +69,15 @@ footer {
   background-color: #8A8D8F;
   display: flex;
   flex-wrap: wrap;
-  height: 200px;
-  width: 100%;
+  height: 175px;
   justify-content: center;
+  margin-top: 1.5em;
+  width: 100%;
 }
 
 .footer-image {
   padding: 0 40px;
-  margin:  1.75em 0;
+  margin-top:  1.75em;
 }
 
 #footer-unr-logo {
@@ -113,12 +118,8 @@ footer {
   width: 50%;
 }
 
-.page-text {
-  display: table-cell;
-}
-
 .button-container {
-  padding: 1em;
+  padding-top: 1em;
   text-align: center;
 }
 
@@ -129,7 +130,7 @@ footer {
   font-size: 16px;
   font-weight: 300;
   margin: 4px 2px;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   transition: 0.2s;
@@ -162,6 +163,21 @@ footer {
   
   -webkit-mask: var(--mask); 
   mask: var(--mask);
+}
+
+h2 {
+  padding-bottom: 0.75em;
+}
+
+hr {
+  margin: 1.5em 0;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  padding-bottom: 1.25em;
+  width: 100%;
 }
 
 /* FONTS */
