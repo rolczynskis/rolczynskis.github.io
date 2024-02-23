@@ -1,0 +1,30 @@
+[
+  {
+    "name": "RESEARCH",
+    "url": "/research"
+  },
+  {
+    "name": "TEAM",
+    "url": "/team"
+  },
+  {
+    "name": "LAB",
+    "url": "/lab"
+  },
+  {
+    "name": "PUBLICATIONS",
+    "url": "/publications"
+  },
+  {
+    "name": "NEWS",
+    "url": "/news"
+  },
+  {
+    "name": "CONTACT",
+    "url": "/contact"
+  },
+  {
+    "name": "JOIN US",
+    "url": "/join_us"
+  }
+]

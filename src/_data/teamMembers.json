@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Brian Rolczynski",
+    "title": "Assistant Professor, Chemistry",
+    "degrees": [
+      "PhD Chemistry, Northwestern University (2013)",
+      "BS Chemistry, University of Washington (2007)",
+      "BA English, University of Washington (2007)"
+    ],
+    "linkedIn": "brolczynski",
+    "orcid": "0000-0002-8783-1266",
+    "image": "Brian.jpeg",
+    "cv": "",
+    "google_scholar": ""
+  },
+  {
+    "name": "Krishna Gautam",
+    "title": "Graduate Student, Chemical Physics",
+    "degrees": [
+      "MS Physics, Tribhuvan University (2015)",
+      "BS Physics, Tribhuvan University (2011)"
+    ],
+    "linkedIn": "krishna-gautam-b0a3752b3",
+    "orcid": "0000-0002-8783-1266",
+    "image": "Krishna.jpeg",
+    "cv": "",
+    "google_scholar": ""
+  }
+]

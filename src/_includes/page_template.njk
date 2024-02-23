@@ -1,5 +1,5 @@
 ---
-title: The Rolczynski Group at UNR
+title: Rolczynski group
 ---
 
 <!doctype html>
@@ -19,13 +19,9 @@ title: The Rolczynski Group at UNR
     </header>
     <div id="navigation">
       <ul>
-        <li><a href="/research">RESEARCH</a></li>
-        <li><a href="/team">TEAM</a></li>
-        <li><a href="/lab">LAB</a></li>
-        <li><a href="/publications">PUBLICATIONS</a></li>
-        <li><a href="/news">NEWS</a></li>
-        <li><a href="/contact">CONTACT</a></li>
-        <li><a href="/join_us">JOIN US</a></li>
+        {% for item in navigation %}
+          <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+        {% endfor %}
       </ul>
     </div>
     <div id="page-content">
