@@ -1,6 +1,6 @@
 ### Publications
 
-### New team members
+### Team
 
 Krishna Gautam joined the group!
 

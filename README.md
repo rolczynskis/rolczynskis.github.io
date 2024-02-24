@@ -53,4 +53,4 @@ Under `src/_data/teamMembers.json`, add a new item with the following format:
 Under `src/_data/currentOpportunities.json`, add or remove an item in the array of titles
 
 ### Update CVs
-Replace the file in `assets/cvs`
+Replace the file in `src/assets/cvs`

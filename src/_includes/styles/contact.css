@@ -10,7 +10,7 @@
   margin-right: 5em;
 }
 
-#contact-container, .fill-page {
+#contact-container {
   min-height: calc(100vh - 390px);
 }
 
