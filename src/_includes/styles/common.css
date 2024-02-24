@@ -1,0 +1,180 @@
+* {
+  color: #051f41;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+#page-content {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.button-container {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.button {
+  background-color: #051f41;
+  border: none;
+  border-radius: 12px;
+  color: #ececec;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 4px 2px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+  width: 250px;
+}
+
+.button:hover {
+  background-color: #364b66;
+}
+
+h2 {
+  padding-bottom: 0.75em;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  padding-bottom: 1.25em;
+  width: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.align-center {
+  text-align: center;
+}
+
+header {
+  background-color: #051f41;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: auto;
+  min-height: 100% !important;
+}
+
+#header-image-link {
+  padding: 1em;
+}
+
+.group-logo {
+  margin: auto;
+  width: 250px;
+}
+
+#navigation {
+  margin: 1em auto 2em auto;
+  overflow: hidden;
+  position: relative;
+  width: 47%;
+}
+
+#navigation ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -1px;
+}
+
+#navigation li {
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  flex-grow: 1;
+  flex-basis: auto;
+  list-style-type: none;
+  margin: .15em 0;
+  padding: 0 1em;
+  text-align: center;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s;
+}
+
+#navigation a:hover {
+  color: #A9A9A9;
+}
+
+footer {
+  background-color: #8A8D8F;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2.5em;
+  width: 100%;
+  position: relative;
+  height: auto;
+  min-height: 100% !important;
+  padding-bottom: 2em;
+}
+
+.footer-image {
+  padding: 0 40px;
+  margin-top:  1.75em;
+}
+
+#footer-unr-logo {
+  display: block;
+  max-width:219px;
+  max-height:71px;
+  width: auto;
+  height: auto;
+  border-right: 1px solid #051f41;
+}
+
+#footer-group-logo {
+  display: block;
+  max-width: 250px;
+  max-height:71px;
+  width: auto;
+  height: auto;
+}
+
+#footer-text {
+  flex: 0 0 100%;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    width: 60%;
+  }
+
+  #page-content {
+    width: 90%;
+  }
+
+  #navigation ul {
+    display: block;
+  }
+
+  #footer-unr-logo {
+    border: none;
+  }
+}

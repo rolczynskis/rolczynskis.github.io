@@ -1,7 +1,10 @@
 ---
 layout: page_template.njk
+cssFile: "styles/news.css"
+hasMarkdown: true
 ---
 
-<div class="fill-page">
-  <h1 class="align-center">Coming soon!</h1>
+<h1 class="news">News</h1>
+<div class="news-feed-main-content markdown-body">
+  {% renderFile "./src/_includes/newsfeed.md" %}
 </div>

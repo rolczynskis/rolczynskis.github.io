@@ -1,5 +1,7 @@
 ---
 layout: page_template.njk
+cssFile: "styles/home.css"
+hasMarkdown: true
 ---
 
 <img id="home-splash" class="image" src="/assets/images/home/home_page_splash.png" alt="Splash page image">
@@ -11,7 +13,8 @@ of modular chromophore networks and the feedback-based optimization of systems, 
 applications like photovoltaics, transistors, sensors, communications, and quantum-information technologies.</p>
 <div class="button-container"><a href="/research" class="button more-info">More information</a></div>
 <hr>
-<div id="news-feed-container">
+<h2>News feed</h2>
+<div class="markdown-body" id="news-feed-home-container">
   {% renderFile "./src/_includes/newsfeed.md" %}
 </div>
 <div class="button-container"><a href="/news" class="button more-news">More news</a></div>

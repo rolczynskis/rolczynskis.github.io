@@ -1,5 +1,6 @@
 ---
 layout: page_template.njk
+cssFile: "styles/publications.css"
 ---
 
 {% for publication in publications %}
@@ -8,7 +9,7 @@ layout: page_template.njk
     <div class="publication-images-container">
       {% for pub in publication.publications %}
         <a href="{{ pub.url }}" target="_blank">
-          <img class="pub-image" src="/assets/images/publications/{{ pub.num }}.png" alt="Image from publication">
+          <img class="pub-image" src="/assets/images/publications/{{ pub.num }}.png" alt="Figure from publication">
         </a>
       {% endfor %}
     </div>

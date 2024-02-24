@@ -1,17 +1,11 @@
-### **News feed**
-&nbsp;
+### Publications
 
-#### Publication blah blah
-&nbsp;
+### New team members
 
-#### Mr. Bob joined the group
-&nbsp;
+Krishna Gautam joined the group!
 
-#### Awards
-&nbsp;
+### Awards
 
-#### Events
-&nbsp;
+### Events
 
-#### Meetings
-&nbsp;
+### Meetings

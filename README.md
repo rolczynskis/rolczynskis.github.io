@@ -34,13 +34,13 @@ Under `src/_data/teamMembers.json`, add a new item with the following format:
     "linkedIn": "brolczynski",
     "orcid": "0000-0002-8783-1266",
     "image": "Brian.jpeg",
-    "cv": "brolczynski.pdf",
+    "cv": "Rolczynski_CV.pdf",
     "google_scholar": "<google scholar url>"
-  }
+}
 ```
 
 ### Update current opportunities
 Under `src/_data/currentOpportunities.json`, add or remove an item in the array of titles
 
 ### Update CVs
-Replace the file in `assets/cvs/<cv file name>`
+Replace the file in `assets/cvs/Rolczynski_CV.pdf`

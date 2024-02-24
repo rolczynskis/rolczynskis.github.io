@@ -1,9 +1,10 @@
 ---
 layout: page_template.njk
+cssFile: "styles/joinUs.css"
 ---
 
 <div id="join-us-container">
-  <img id="scenery-image" src="/assets/images/join-us/scenery.jpg" alt="image of the mountains in Reno, Nevada">
+  <img id="scenery-image" src="/assets/images/join-us/scenery.jpg" alt="Landscape photograph of the mountains in Reno, Nevada">
   <p>Are you interested in research at the intersection of optoelectronics, nanotechnology,
   and machine learning?</p>
   <br>
@@ -22,5 +23,7 @@ layout: page_template.njk
       <li>{{ opportunity }}</li>
     {% endfor %}
   </ul>
-  <div class="button-container"><a href="/contact" class="button contact-button">CONTACT</a></div>
+  <div class="button-container">
+    <a href="/contact" class="button contact-button">CONTACT</a>
+  </div>
 </div>

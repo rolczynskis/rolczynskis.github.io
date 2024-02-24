@@ -1,0 +1,14 @@
+#scenery-image {
+  border: 1px solid;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+#join-us-container {
+  font-size: 14px;
+}
+
+#join-us-container li {
+  margin: 0.25em 1em;
+}
