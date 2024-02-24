@@ -1,6 +1,26 @@
 ---
 layout: page_template.njk
-title: Rolczynski Group
 ---
 
-<h1>join us</h1>
+<div id="join-us-container">
+  <img id="scenery-image" src="/assets/images/join-us/scenery.jpg" alt="image of the mountains in Reno, Nevada">
+  <p>Are you interested in research at the intersection of optoelectronics, nanotechnology,
+  and machine learning?</p>
+  <br>
+  <p>Do you want to gain skills in advanced optical spectroscopies, computer programming,
+  physical modeling, and materials science?</p>
+  <br>
+  <p>Are you fascinated by quantum mechanics, electrodynamics, and information theory?</p>
+  <br>
+  <p>If you are curious, creative, and driven, this could be the fit for you. Our
+  multi-disciplinary approach offers a wide array of research niches and opportunities. To
+  find out more, contact us below.</p>
+  <br>
+  <p class="underline bold">Current Opportunities</p>
+  <ul>
+    {% for opportunity in currentOpportunities %}
+      <li>{{ opportunity }}</li>
+    {% endfor %}
+  </ul>
+  <div class="button-container"><a href="/contact" class="button contact-button">CONTACT</a></div>
+</div>

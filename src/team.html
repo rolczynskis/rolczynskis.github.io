@@ -5,7 +5,7 @@ layout: page_template.njk
 <div id="team-page-content-container">
   {% for member in teamMembers %}
   <div class="team-member-container">
-    <img class="team-member-image" src="/assets/images/team/{{ member.image }}">
+    <img class="team-member-image" src="/assets/images/team/{{ member.image }}" alt="Image of team member">
     <div class="team-text-container">
       <p class="team-name">{{ member.name }}</p>
       <p class="team-title">{{ member.title }}</p>
@@ -33,7 +33,7 @@ layout: page_template.njk
         </a>
       </div>
       <div class="team-link-container" href="">
-        <a href="" target="_blank">
+        <a href="https://orcid.org/{{ member.orcid }}" target="_blank">
           <img class="team-logo" src="/assets/images/team/orcid.png">
           <span class="team-link-label">{{ member.orcid }}</span>
         </a>

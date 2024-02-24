@@ -1,6 +1,16 @@
 ---
 layout: page_template.njk
-title: Rolczynski Group
 ---
 
-<h1>publications</h1>
+{% for publication in publications %}
+  <div class="publication-year-container">
+    <span class="publication-year">{{ publication.year }}</span>
+    <div class="publication-images-container">
+      {% for pub in publication.publications %}
+        <a href="{{ pub.url }}" target="_blank">
+          <img class="pub-image" src="/assets/images/publications/{{ pub.num }}.png" alt="Image from publication">
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
