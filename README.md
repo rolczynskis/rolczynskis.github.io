@@ -11,9 +11,19 @@
 1. Once your changes look good, commit them:
 ```
 git add .
-git commit -m "<message such as 'added CV' etc>"
+git commit -m "<message such as 'added CV' or 'updated news feed' etc>"
 git push
 ```
+
+Note that for simple changes you may not need to run the site locally to verify. In this case, you can update
+the files directly in the GitHub UI if desired.
+
+### Mobile site
+
+To simulate a mobile view of the site, you can use a browser. For example, in Chrome:
+1. Right click on the page and choose "Inspect"
+1. In the top left corner of the Inspect window, just to the right of the arrow, there's an icon that looks like a laptop and a phone. Click on that to toggle between the desktop site and mobile view
+1. Simulate different types of devices (phones/tablets) by choosing one under the "Dimensions" dropdown on the top of the page
 
 ## Making updates
 
@@ -43,4 +53,4 @@ Under `src/_data/teamMembers.json`, add a new item with the following format:
 Under `src/_data/currentOpportunities.json`, add or remove an item in the array of titles
 
 ### Update CVs
-Replace the file in `assets/cvs/Rolczynski_CV.pdf`
+Replace the file in `assets/cvs`
