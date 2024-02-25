@@ -17,3 +17,10 @@
 #contact-container .button-container {
   margin-top: 1em;
 }
+
+@media only screen and (max-width: 600px) {
+  #office-phone-container {
+    float: left;
+    margin: 1em 2em;
+  }
+}

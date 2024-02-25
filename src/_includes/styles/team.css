@@ -59,3 +59,22 @@
   max-width: 20px;
   height: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .team-member-container {
+    display: block;
+  }
+
+  .team-member-container .team-member-image {
+    display: block;
+    margin: auto;
+  }
+
+  .team-text-container {
+    margin: 1em 0;
+  }
+
+  .team-text-container p {
+    text-align: center;
+  }
+}
