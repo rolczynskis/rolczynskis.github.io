@@ -4,6 +4,7 @@ const CleanCSS = require("clean-css");
 module.exports = function(eleventyConfig) {
   eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
