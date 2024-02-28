@@ -2,8 +2,9 @@
 
 ## Running the site locally
 1. In Terminal, navigate to the directory where you want to clone the repo
-1. Clone it: `git clone https://github.com/rolczynskis/brian-lab-website.git`
-1. Navigate to the cloned repo: `cd brian-lab-website`
+1. Clone it: `git clone https://github.com/rolczynskis/rolczynskis.github.io.git`
+1. Navigate to the cloned repo: `cd rolczynskis.github.io`
+1. Run `npm install`
 1. Run the local server: `npx @11ty/eleventy --serve`
 1. Open http://localhost:8080 in a browser
 1. Open the source code in an editor such as Sublime or TextEdit
