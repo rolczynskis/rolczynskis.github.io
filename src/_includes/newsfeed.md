@@ -2,7 +2,7 @@
 
 ### Team
 
-1/1/24 - Krishna Gautam joined the group!
+1/1/24 - Krishna Gautam joined the group!  
 5/16/24 - Kipper Riemersma joined the group!
 
 ### Awards
