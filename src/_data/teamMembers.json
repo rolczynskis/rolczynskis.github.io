@@ -1,7 +1,7 @@
 [
   {
     "name": "Brian Rolczynski",
-    "title": "Assistant Professor, Chemistry",
+    "title": "Assistant Professor, Chemistry (2024)",
     "degrees": [
       "PhD Chemistry, Northwestern University (2013)",
       "BS Chemistry, University of Washington (2007)",
@@ -9,21 +9,34 @@
     ],
     "linkedIn": "brolczynski",
     "orcid": "0000-0002-8783-1266",
-    "image": "Brian.jpeg",
+    "image": "Brian_Rolczynski.jpeg",
     "cv": "Rolczynski_CV.pdf",
     "google_scholar": "https://scholar.google.com/citations?user=LuXtlucAAAAJ&hl=en&inst=12362621961113799720&oi=ao"
   },
   {
     "name": "Krishna Gautam",
-    "title": "Graduate Student, Chemical Physics",
+    "title": "Graduate Student, Chemical Physics (2024)",
     "degrees": [
       "MS Physics, Tribhuvan University (2015)",
       "BS Physics, Tribhuvan University (2011)"
     ],
     "linkedIn": "krishna-gautam-b0a3752b3",
     "orcid": "0009-0004-6279-7470",
-    "image": "Krishna.jpeg",
+    "image": "Krishna_Gautam.jpeg",
     "cv": "Gautam_CV.pdf",
     "google_scholar": ""
+  },
+  {
+    "name": "Kipper Riemersma",
+    "title": "Graduate Student, Chemistry (2024)",
+    "degrees": [
+      "BS Chemistry, Iowa State University (2023)",
+      "BS Mathematics, Iowa State University (2023)"
+    ],
+    "linkedIn": "kipper-riemersma-94078730a",
+    "orcid": "0009-0008-2637-1949",
+    "image": "Kipper_Riemersma.png",
+    "cv": "Riemersma_CV.pdf",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=xYzK-fUAAAAJ"
   }
 ]
