@@ -3,7 +3,17 @@ layout: page_template.njk
 cssFile: "styles/home.css"
 hasMarkdown: true
 ---
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKBWCFTXFD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-RKBWCFTXFD');
+    </script>
+</head>
 <img id="home-splash" class="image" src="assets/images/home/home_page_splash.png" alt="Splash page image">
 <p class="page-text">In the next phase of optoelectronics, scientists and engineers will actively control processes like
 quantum-mechanical phase evolution, stepwise electronic processes, system-environment interactions, and
