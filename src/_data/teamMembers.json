@@ -15,7 +15,7 @@
   },
   {
     "name": "Krishna Gautam",
-    "title": "Graduate Student, Chemical Physics (2024)",
+    "title": "Graduate Student, Chemical Physics (2023)",
     "degrees": [
       "MS Physics, Tribhuvan University (2015)",
       "BS Physics, Tribhuvan University (2011)"
@@ -28,7 +28,7 @@
   },
   {
     "name": "Kipper Riemersma",
-    "title": "Graduate Student, Chemistry (2024)",
+    "title": "Graduate Student, Chemistry (2023)",
     "degrees": [
       "BS Chemistry, Iowa State University (2023)",
       "BS Mathematics, Iowa State University (2023)"
@@ -38,5 +38,18 @@
     "image": "Kipper_Riemersma.png",
     "cv": "Riemersma_CV.pdf",
     "google_scholar": "https://scholar.google.com/citations?hl=en&user=xYzK-fUAAAAJ"
+  },
+  {
+    "name": "Nabin Humagain",
+    "title": "Graduate Student, Chemistry (2024)",
+    "degrees": [
+      "MS Chemistry, Tribhuvan University (2019)",
+      "BS Chemistry, Tribhuvan University (2016)"
+    ],
+    "linkedIn": "nabin-humagain-661773336",
+    "orcid": "0009-0005-3622-1563",
+    "image": "Nabin_Humagain.png",
+    "cv": "Humagain_CV.pdf",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=4Q1SIbkAAAAJ"
   }
 ]
