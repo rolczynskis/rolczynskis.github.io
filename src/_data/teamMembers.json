@@ -58,10 +58,23 @@
     "degrees": [
       "BS Chemistry, University of Nevada, Reno (in progress)"
     ],
-    "linkedIn": "antonio-f-s-556405344/",
+    "linkedIn": "antonio-f-s-556405344",
     "orcid": "0009-0000-1956-017X",
     "image": "Antonio_Fuentes_Solis.png",
     "cv": "Fuentes_Solis_CV.pdf",
     "google_scholar": "https://scholar.google.com/citations?hl=en&user=RYENNdAAAAAJ"
+  },
+  {
+    "name": "Tri Tran",
+    "title": "Undergraduate Student, Chemistry (2022)",
+    "degrees": [
+      "BS Chemistry, University of Nevada, Reno (in progress)",
+      "Minor, Graphic Design, University of Nevada, Reno (in progress)"
+    ],
+    "linkedIn": "ba-minh-tri-tran-a1a45b248",
+    "orcid": "0009-0007-5929-425X",
+    "image": "Tri_Tran.png",
+    "cv": "Tran_CV.pdf",
+    "google_scholar": "https://scholar.google.com/citations?user=DTVdwdkAAAAJ&hl=en"
   }
 ]
