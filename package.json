@@ -15,13 +15,14 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^4.0.2",
+    "braces": ">=3.0.3",
     "clean-css": "^5.3.3",
-    "github-markdown-css": "^5.5.1",
-    "markdown-it": "^14.0.0",
-    "image-size": ">=1.2.1",
-    "ws": ">=8.17.1",
-    "pug": ">=3.0.3",
+    "cmd": "^0.1.0",
     "ejs": ">=3.1.10",
-    "braces": ">=3.0.3"
+    "github-markdown-css": "^5.5.1",
+    "image-size": ">=1.2.1",
+    "markdown-it": "^14.0.0",
+    "pug": ">=3.0.3",
+    "ws": ">=8.17.1"
   }
 }
