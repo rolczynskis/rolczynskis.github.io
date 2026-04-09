@@ -11,7 +11,7 @@
     "orcid": "0000-0002-8783-1266",
     "image": "Brian_Rolczynski.jpeg",
     "cv": "Rolczynski_CV.pdf",
-    "google_scholar": "https://scholar.google.com/citations?user=LuXtlucAAAAJ&hl=en&inst=12362621961113799720&oi=ao"
+    "google_scholar": "https://scholar.google.com/citations?user=LuXtlucAAAAJ"
   },
   {
     "name": "Krishna Gautam",
@@ -24,7 +24,7 @@
     "orcid": "0009-0004-6279-7470",
     "image": "Krishna_Gautam.jpeg",
     "cv": "Gautam_CV.pdf",
-    "google_scholar": ""
+    "google_scholar": "https://scholar.google.com/citations?user=qUENZE8AAAAJ"
   },
   {
     "name": "Kipper Riemersma",
@@ -48,9 +48,21 @@
     ],
     "linkedIn": "nabin-humagain-661773336",
     "orcid": "0009-0005-3622-1563",
-    "image": "Nabin_Humagain.png",
+    "image": "Nabin.png",
     "cv": "Humagain_CV.pdf",
     "google_scholar": "https://scholar.google.com/citations?hl=en&user=4Q1SIbkAAAAJ"
+  },
+  {
+    "name": "Nathaniel Terry",
+    "title": "Graduate Student, Chemistry (2025)",
+    "degrees": [
+      "BS Chemistry, CSU Channel Islands (2025)"
+    ],
+    "linkedIn": "nathaniel-terry-663921302",
+    "orcid": "0009-0008-9066-2652",
+    "image": "Nathaniel.png",
+    "cv": "Terry_CV.pdf",
+    "google_scholar": "https://scholar.google.com/citations?user=ChEWvYYAAAAJ"
   },
   {
     "name": "Antonio Fuentes Solis",
@@ -75,6 +87,66 @@
     "orcid": "0009-0007-5929-425X",
     "image": "Tri_Tran.png",
     "cv": "Tran_CV.pdf",
-    "google_scholar": "https://scholar.google.com/citations?user=DTVdwdkAAAAJ&hl=en"
+    "google_scholar": "https://scholar.google.com/citations?user=DTVdwdkAAAAJ"
+  },
+  {
+    "name": "Malea Norris",
+    "title": "Undergraduate Student, Biology (2026)",
+    "degrees": [
+      "BS Biology, University of Nevada, Reno (in progress)"
+    ],
+    "linkedIn": "malea-norris-a7a7793b7",
+    "orcid": "0009-0003-4838-076X",
+    "image": "Malea.png",
+    "cv": "Norris_CV.pdf",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=e41ytEAAAAAJ"
+  },
+  {
+    "name": "Kevin Lee",
+    "title": "Undergraduate Student, Biology (2026)",
+    "degrees": [
+      "BS Biology, University of Nevada, Reno (in progress)"
+    ],
+    "linkedIn": "kevin-lee-660985385",
+    "orcid": "0009-0001-5843-574X",
+    "image": "Kevin.png",
+    "cv": "Lee_CV.pdf",
+    "google_scholar": ""
+  },
+  {
+    "name": "Sebastian Hackney",
+    "title": "Undergraduate Student, Mathematics (2026)",
+    "degrees": [
+      "BA Mathematics, University of Nevada, Reno (in progress)"
+    ],
+    "linkedIn": "sebastian-hackney-a434713bb",
+    "orcid": "0009-0006-6719-7399",
+    "image": "Sebastian.png",
+    "cv": "Hackney_CV.pdf",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=QEyQX88AAAAJ"
+  },
+  {
+    "name": "Suhani Parekh",
+    "title": "Undergraduate Student, Biotechnology (2026)",
+    "degrees": [
+      "BS Biotechnology, University of Nevada, Reno (in progress)"
+    ],
+    "linkedIn": "suhani-parekh-204464361",
+    "orcid": "0009-0007-6745-4225",
+    "image": "Suhani.png",
+    "cv": "Parekh_CV.pdf",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=n_jLk1oAAAAJ"
+  },
+  {
+    "name": "Logan Price",
+    "title": "High School Student (2026)",
+    "degrees": [
+      "Reno High School"
+    ],
+    "linkedIn": "logan-price-780b30401",
+    "orcid": "0009-0002-5659-5843",
+    "image": "Logan.png",
+    "cv": "Price_CV.pdf",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=UM2hCKYAAAAJ"
   }
 ]
